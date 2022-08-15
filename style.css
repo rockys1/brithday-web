@@ -48,7 +48,8 @@ h1{
 .food{
     border: 2px solid indianred;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    background-color: #1a193b;
 }
 .food img{
     width: 100%;
@@ -62,6 +63,16 @@ h1{
 .food video{
     border-radius:20px;
     box-shadow: 1px 1px 50px #9ad3ff;
+}
+.food p, h2{
+    color: #8a8b8b;
+}
+.food h4{
+    color: #aab9c4;
+}
+.food a{
+    text-decoration: none;
+    color: indianred;
 }
 
 @media screen and (max-width: 576px) {
