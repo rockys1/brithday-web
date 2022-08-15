@@ -1,72 +1,20 @@
-/* 
-.top-banner{
-    box-shadow: 10px 10px 80px #ff8800;
-    background-image: url(images/flower-1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 20px;
-    width: 80%;
-    margin: 10px auto;
-    
-} 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
 .one h4{
     font-family: 'Caveat', cursive;
+    background-image: url(images/flower-1.jpg);
+    box-shadow: 5px 5px 80px greenyellow;
+    border-radius: 15px;
+    background-size: cover;
     font-size: 6.5vw;
+    margin: 20px 40px;
     text-align: center;
-    padding: 32px 40px; 
-    text-shadow: 1px 1px 2px yellowgreen;
-}
-*/
-
-
-
-
-body{
-    margin: 0;
-}
-
-@media screen and (max-width:576px) {
-    
-    /* Top bannar Part */
-    .top-banner{
-        box-shadow: 10px 10px 80px #ff8800;
-        background-image: url(images/flower-1.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 80%;
-        margin: 10px auto;
-        
-    } 
-    .one h4{
-        font-family: 'Caveat', cursive;
-        font-size: 6.5vw;
-        text-align: center;
-        padding: 8.5px 20px; 
-        text-shadow: 1px 1px 2px yellowgreen;
-    }
-
-}
-
-@media screen and (min-width: 577px) and (max-width: 1000px) {
-    
-    /* Top bannar Part */
-    .top-banner{
-        box-shadow: 10px 10px 80px #ff8800;
-        background-image: url(images/flower-1.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 80%;
-        margin: 10px auto;
-        
-    } 
-    .one h4{
-        font-family: 'Caveat', cursive;
-        font-size: 6.5vw;
-        text-align: center;
-        padding: 20px 40px; 
-        text-shadow: 1px 1px 2px yellowgreen;
-    }
-
+    padding: 40px 20px;
 }
