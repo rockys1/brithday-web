@@ -106,6 +106,30 @@ h1{
    
 }
 
+/* ==========================
+============================ */
+.text-position{
+    text-align: center;
+    background-color: rgb(1, 31, 1);
+    padding-top: 40px;
+    margin: 0;
+}
+.color-white{
+    color: rgb(135, 154, 169);
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+#col-org{
+    color: rgb(255, 153, 0);
+    font-size: 15px;
+}
+#col-gray{
+    color: rgb(245, 255, 222);
+}
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .container-two{
