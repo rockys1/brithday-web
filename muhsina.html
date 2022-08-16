@@ -8,9 +8,12 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
         body{
+            font-family: 'Poppins', sans-serif;
             max-width: 800px;
-            border: 1px solid yellowgreen;
+            background-color: #f7ffe7;
             margin: 0 auto;
         }
         h1{
@@ -36,13 +39,24 @@
             gap: 20px;
         }
         .food{
-            border: 2px solid indianred;
+            border: 2px solid rgb(169, 250, 7);
             padding: 10px;
             border-radius: 10px;
+            background-color: aliceblue;
         }
         .food img{
             width: 100%;
             border-radius: 30px;
+            box-shadow: 1px 1px 40px #f982ff;
+        }
+        .food h2{
+            color: rgb(130, 78, 0);
+        }
+        .food h4{
+            color: grey;
+        }
+        #col{
+            color: #8676fc;
         }
         @media screen and (max-width: 576px) {
             .container-two{
@@ -68,17 +82,23 @@
 </head>
 <body>
     <section class="lion">
-        <h1>Special Birthday wish from <br><span id="nam">Muhsina Jaman</span></h1>
+        <h1>Special Birthday wish <br> from <br><span id="nam">Muhsina Jaman</span></h1>
         <img src="images/lion.jpg" alt="">
      </section>
      <section>
-        <h2>Two Parts</h2>
         <div class="container-two">
-            <div class="tiger">
-                <img src="images/healthy.jpg" alt="">
-            </div>
-            <div class="tiger">
-                <img src="images/tiger.webp" alt="">
+            <div class="food">
+                <img src="images/players/player-4.jpg" alt="">
+                <h2>Birthday message</h2>
+                
+                <p>It's 2022. <br>
+                    And if I start counting the days of our frndship maybe I won't be able.....
+                    জীবনে এমন কিছু মানুষ থাকে যাদের সাথে সম্পর্ক হঠাৎ করে এত সুন্দর হয়ে যায় যে আর বন্ডিং টা এত স্ট্রং থাকে যে মাসের পর মাস যোগাযোগ বিচ্ছিন্ন থাকলেও মনের টান টা কখনো কমে যায় না।।।। এই মানুষগুলো জীবনের একটা অতি গুরুত্বপূর্ণ অংশ জুড়ে থাকে আর এদের জায়গা টা থাকে  নন রিপ্লেসেবল। <br>
+                    অনেক দোয়া করি লাইফে অনেক স্বপ্ন দেখ আর আল্লাহ্ সেগুলো পূরণ করুক।। <br>
+                    May Almighty always bless you.... <br>
+                    Always try to be happy and keep smiling... <br>
+                    And meet me soon.</p>
+                    <h4>by <span id="col">Muhsina Jaman</span></h4>
             </div>
         </div>
      </section>
