@@ -74,6 +74,38 @@ h1{
     text-decoration: none;
     color: indianred;
 }
+/* ================
+=================== */
+.specialss{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #2a0b30;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 40px rgb(247, 0, 255);
+    border-top: 5px solid rgb(255, 149, 0);
+    border-bottom: 5px solid rgb(51, 0, 255);
+    border-radius: 25px;
+    
+} 
+.specials h2{
+    margin-top: 25px;
+    text-align: center;
+    color:rgb(165, 177, 188);
+    
+}
+.special a{
+    background-image: linear-gradient(#dcff67, #99ff00);
+    padding: 30px 50px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #1a193b;
+    margin-left: 70px;
+   
+}
+
 
 @media screen and (max-width: 576px) {
     .container-two{
