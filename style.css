@@ -126,8 +126,9 @@ h1{
 #col-gray{
     color: rgb(245, 255, 222);
 }
-
-
+h5.color-white {
+    margin-bottom: 0;
+}
 
 
 
