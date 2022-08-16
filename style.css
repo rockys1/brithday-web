@@ -24,6 +24,13 @@ body{
 
 /* ===============
 ================== */
+#first{
+    color: #660438;
+}
+#secound{
+    color: rgb(124, 167, 13);
+}
+
 
 h1{
     font-size: 10vw;
@@ -130,6 +137,54 @@ h5.color-white {
     margin-bottom: 0;
 }
 
+.fa-brands{
+    font-size: 30px;
+}
+
+i.fa-brands.fa-facebook{
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: #8676fc;
+}
+i.fa-brands.fa-instagram{
+    border-radius: 10px;
+    background-color: white;
+    color: #E1306C	;
+}
+
+/* ===============================
+================================== */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: blueviolet;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+}
+
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -139,8 +194,11 @@ h5.color-white {
     .container-two .tiger{
     width: 100%;
     }
-    .container{
+    .container, .players{
         grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        flex-direction: column;
     }
 
 
